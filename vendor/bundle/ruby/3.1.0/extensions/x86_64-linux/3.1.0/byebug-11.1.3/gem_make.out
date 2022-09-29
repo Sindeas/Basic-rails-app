@@ -1,0 +1,19 @@
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220926-15419-nyzge9.rb extconf.rb
+creating Makefile
+
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= clean
+
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\=
+compiling breakpoint.c
+compiling byebug.c
+compiling context.c
+compiling locker.c
+compiling threads.c
+linking shared-object byebug/byebug.so
+
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/byebug-11.1.3/ext/byebug
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 byebug.so ./.gem.20220926-15419-7i8ff8/byebug

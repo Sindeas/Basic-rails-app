@@ -1,0 +1,15 @@
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+/usr/share/rvm/rubies/ruby-3.1.2/bin/ruby -I /usr/share/rvm/rubies/ruby-3.1.2/lib/ruby/3.1.0 -r ./siteconf20220926-15419-6r1pp9.rb extconf.rb
+creating Makefile
+
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= clean
+
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\=
+compiling cruby.c
+linking shared-object skiptrace/internal/cruby.so
+
+current directory: /home/sindeas/basic-rails-app/vendor/bundle/ruby/3.1.0/gems/bindex-0.8.1/ext/skiptrace
+make DESTDIR\= install
+/usr/bin/install -c -m 0755 cruby.so ./.gem.20220926-15419-n191gb/skiptrace/internal

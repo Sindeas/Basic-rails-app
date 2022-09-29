@@ -1,0 +1,18 @@
+<div>
+    <h2><center>New Users Page</center></h2>
+    <%= form_for @user do |f| %>
+        <center><%= f.label :username %>
+        <%= f.text_field :username, placeholder: "Username" %><br>
+        <%= f.label :password %>
+        <%= f.password_field :password, placeholder: "Password" %><br>
+        <%= f.label :email %>
+        <%= f.text_field :email, placeholder: "E-mail" %><br>
+        <%= f.label :First_name %>
+        <%= f.text_field :firstname, placeholder: "First Name" %><br>
+        <%= f.label :Last_name %>
+        <%= f.text_field :lastname, placeholder: "Last Name" %><br>
+
+
+        <%= f.submit "Create Account" %>
+    <% end %>
+</div>
